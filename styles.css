@@ -9,10 +9,6 @@ input {
     font-family: 'Montserrat';
 }
 
-h2 {
-    color: rgb(85, 85, 211);
-}
-
 .container {
     position: relative;
     width: 100%;
@@ -27,7 +23,7 @@ h2 {
     width: 2000px;
     height: 2000px;
     border-radius: 50%;
-    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(23, 152, 202) 0%, rgba(0, 52, 89, 1) 90%);
+    background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(75, 159, 193) 0%, rgba(0, 52, 89, 1) 90%);
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
@@ -78,7 +74,7 @@ form.sign-up-form {
 
 .title {
     font-size: 2.2rem;
-    color: rgb(17, 6, 79);
+    color: rgb(11, 95, 137);
     margin-bottom: 10px;
 }
 
@@ -160,8 +156,8 @@ form.sign-up-form {
 }
 
 .social-icon:hover {
-    color: rgb(19, 40, 103);
-    border-color: rgb(36, 220, 207);
+    color: rgb(23, 221, 142);
+    border-color: rgb(9, 165, 155);
 }
 
 .panels-container {
@@ -370,5 +366,26 @@ form.sign-up-form {
     .container.sign-up-mode::before {
         bottom: 28%;
         left: 50%;
+    }
+    .title {
+        font-size: 1.9rem;
+    }
+    .input-field {
+        max-width: 300px;
+        height: 52px;
+    }
+    .input-field i {
+        font-size: 1.05rem;
+    }
+    .input-field input {
+        font-size: 1rem;
+    }
+    .social-text {
+        font-size: 0.9rem;
+    }
+    .social-icon {
+        height: 43px;
+        width: 43px;
+        font-size: 1.2rem;
     }
 }
